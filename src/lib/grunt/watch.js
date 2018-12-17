@@ -1,13 +1,13 @@
 module.exports = {
     scripts: {
         files: [
-            "./../scripts/**/*.js",
+            "../scripts/**/*.js",
             "!node_modules/**/*.js"
         ],
-        tasks: ["eslint"],
+        tasks: ["eslint", "browserify"],
         options: {
             spawn: false,
             debounceDelay: 1000
         }
     }
-  };
+}
