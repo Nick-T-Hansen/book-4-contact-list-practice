@@ -17,7 +17,7 @@ const contacts = {
         contactSection.appendChild(contactPhoneNumber);
         contactSection.appendChild(contactAddress);
 
-        return contactBuilder
+        return contactSection
     }
 }
 
