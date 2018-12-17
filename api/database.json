@@ -1,0 +1,22 @@
+{
+  "contacts": [
+    {
+      "name": "Nick Hansen",
+      "phone number": "615-111-2222",
+      "address": "123 NSS Road",
+      "id": 1
+    },
+    {
+      "name": "Jimmy Bufnit",
+      "phone number": "615-244-6969",
+      "address": "17 Tequila Ave",
+      "id": 2
+    },
+    {
+      "name": "Lee Adama",
+      "phone number": "615-878-7575",
+      "address": "85 Galactica South",
+      "id": 3
+    }
+  ]
+}
