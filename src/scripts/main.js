@@ -2,4 +2,9 @@
 
 
 import ContactList from "./contactList"
+import contactList from "./contactList";
+
+contactList.appendContactList();
+
+
 

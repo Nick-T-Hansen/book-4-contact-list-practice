@@ -5,6 +5,6 @@ let contactCollection = {
         return fetch("http://localhost:8088/contacts")
         .then(response => response.json())
     }
-}
+};
 
 export default contactCollection
