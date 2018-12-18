@@ -5,6 +5,9 @@
 // 2. Attach event listener to button in form
 // 3. Append the HTML form to the DOM
 
+
+import eventListeners from "./eventListeners"
+
 const contactForm = {
     formBuilder () {
         //form appends to dom
@@ -16,24 +19,23 @@ const contactForm = {
         formName.setAttribute("id","form-name-input");
         formName.placeholder = "Name";
         contactForm.appendChild(formName);
-        
+
         let formPhoneNumber = document.createElement("input");
         formPhoneNumber.setAttribute("id","form-phone-input");
         formPhoneNumber.placeholder = "Phone Number";
         contactForm.appendChild(formPhoneNumber);
-        
+
         let formAddress = document.createElement("input");
         formAddress.setAttribute("id","form-address-input");
         formAddress.placeholder = "Address";
         contactForm.appendChild(formAddress);
-        //what is wrong with the button size?
+
         let formSubmit = document.createElement("button");
         formSubmit.innerHTML = "Submit";
         contactForm.appendChild(formSubmit);
-        formSubmit.addEventListener("click", formEventListener ());
-    },
-    formEventListener () {
-        console.log("test");
+        //form event listener
+        formSubmit.addEventListener("click", eventListeners.formAppendtoJson
+        );
     }
 };
 
