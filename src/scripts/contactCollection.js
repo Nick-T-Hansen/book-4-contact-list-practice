@@ -6,13 +6,14 @@ let contactCollection = {
         .then(response => response.json())
     },
     postResponses (newContacts) {
-        fetch("http://localhost:8088/contacts", {
+        return fetch("http://localhost:8088/contacts", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
         body: JSON.stringify(newContacts)
         })
+        .then(repsonses => repsonses.json())
     }
 };
 

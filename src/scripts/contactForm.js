@@ -34,18 +34,9 @@ const contactForm = {
         formSubmit.innerHTML = "Submit";
         contactForm.appendChild(formSubmit);
         //form event listener
-        formSubmit.addEventListener("click", eventListeners.formAppendtoJson
-        );
+        formSubmit.addEventListener("click", eventListeners.formAppendtoJson)
+
     }
 };
 
 export default contactForm
-// This module will also contain the function that executes when the button in the form is clicked. When the button in the form is clicked, the following will happen:
-// 1. Get user input that user entered
-// 2. Create a new object with the same structure we have been using throughout the application to represent a food item:
-// {
-//   name: "user input name",
-//   phoneNumber: "user input expiration",
-//   type: "user input type"
-// }
-// 3. Call the method(postNewFood) with the fetch request to POST to the API
